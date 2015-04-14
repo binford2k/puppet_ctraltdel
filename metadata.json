@@ -1,0 +1,42 @@
+{
+  "name": "ctraltdel",
+  "version": "1.0.0",
+  "author": "javiermlm",
+  "summary": "UNKNOWN",
+  "license": "Apache License, Version 2.0",
+  "source": "git://github.com/javiermlm/puppet_ctraltdel.git",
+  "project_page": "https://github.com/javiermlm/puppet_ctraltdel",
+  "issues_url": "https://github.com/javiermlm/puppet_ctraltdel/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat"
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS"
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": "3.x"
+    }
+  ],
+  "description": "Module to ignore ctr-alt-del press",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 2.2.1"
+    },
+    {"name":"puppetlabs/stdlib","version_requirement":">= 2.2.1"}
+  ]
+}
